@@ -1,0 +1,117 @@
+#background {
+  stroke: grey;
+}
+
+#car_group {
+  animation: drive 3s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes drive {
+  from {
+    transform: translateX(-90vw);
+  }
+  to {
+    transform: translateX(100vw);
+  }
+}
+
+#lights {
+  animation: blinks 3s infinite;
+}
+
+@keyframes blinks {
+  0% {
+    stroke: brown;
+    fill: yellow;
+  }
+  50% {
+    stroke: brown;
+    fill: yellow;
+  }
+  100% {
+    stroke: brown;
+    fill: black;
+  }
+}
+
+#house_group {
+  /* stroke: black; */
+  stroke-width: 2;
+}
+
+#flower_group {
+  stroke: black;
+  stroke-width: 2;
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+
+/* #circle_flower {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+} */
+
+#ellipse1 {
+  transform-box: fill-box;
+  /* transform-origin: 50% 50%; */
+  transform: rotate(0deg);
+  animation: fall 3s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes fall {
+  from {
+    transform: translateY(0vw);
+  }
+  to {
+    transform: translate(1vw, 5vw);
+  }
+}
+
+#ellipse2 {
+  transform-box: fill-box;
+  /* transform-origin: 50% 50%; */
+  transform: rotate(45deg);
+}
+
+#ellipse3 {
+  transform-box: fill-box;
+  /* transform-origin: 50% 50%; */
+  transform: rotate(90deg);
+}
+
+#ellipse4 {
+  transform-box: fill-box;
+  /* transform-origin: 50% 50%; */
+  transform: rotate(135deg);
+}
+
+#ellipse5 {
+  transform-box: fill-box;
+  /* transform-origin: 50% 50%; */
+  transform: rotate(180deg);
+}
+
+#ellipse6 {
+  transform-box: fill-box;
+  /* transform-origin: 50% 50%; */
+  transform: rotate(225deg);
+}
+
+#ellipse7 {
+  transform-box: fill-box;
+  /* transform-origin: 50% 50%; */
+  transform: rotate(270deg);
+}
+
+#ellipse8 {
+  transform-box: fill-box;
+  /* transform-origin: 50% 50%; */
+  transform: rotate(305deg);
+}
+
+#leaf {
+  transform-box: fill-box;
+  transform: rotate(225deg);
+}

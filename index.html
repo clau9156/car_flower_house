@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <svg width="1000" height="1500">
+        <g id="background">
+            <rect x="1" y="1" width="1000" height="500" fill="lightblue"></rect>
+            <rect x="1" y="500" width="1000" height="150" fill="grey"></rect>
+        </g>
+        <g id="house_group">
+            <rect x="300" y="300" width="200" height="200" stroke="transparent" fill="beige"></rect>
+            <rect id="lights" x="325" y="340" width="40" height="40" stroke="brown" fill="yellow"></rect>
+            <rect id="lights" x="325" y="420" width="40" height="40" stroke="brown" fill="yellow"></rect>
+            <rect id="lights" x="435" y="340" width="40" height="40" stroke="brown" fill="yellow"></rect>
+            <rect id="lights" x="435" y="420" width="40" height="40" stroke="brown" fill="yellow"></rect>
+            <rect x="380" y="420" width="40" height="80" stroke="brown" fill="black"></rect> 
+            <polygon points="300,300 390,175 500,300" stroke="transparent" fill="brown"></polygon>
+        </g> 
+        <g id="flower_group">
+            <path id="stem" d="M 230 500 C 300 350, 120 390, 280 400" fill="transparent"></path>
+            <ellipse id="ellipse1" cx="250" cy="430" rx="6" ry="20" fill="yellow"></ellipse>
+            <ellipse id="ellipse2" cx="250" cy="430" rx="6" ry="20" fill="yellow"></ellipse>
+            <ellipse id="ellipse3" cx="250" cy="430" rx="6" ry="20" fill="yellow"></ellipse>
+            <ellipse id="ellipse4" cx="250" cy="430" rx="6" ry="20" fill="yellow"></ellipse>
+            <ellipse id="ellipse5" cx="250" cy="430" rx="6" ry="20" fill="yellow"></ellipse>
+            <ellipse id="ellipse6" cx="250" cy="430" rx="6" ry="20" fill="yellow"></ellipse>
+            <ellipse id="ellipse7" cx="250" cy="430" rx="6" ry="20" fill="yellow"></ellipse>
+            <ellipse id="ellipse8" cx="250" cy="430" rx="6" ry="20" fill="yellow"></ellipse>
+            <circle id="circle_flower" cx="245" cy="410" r="7" fill="black"></circle>
+            <ellipse id="leaf" cx="245" cy="500" rx="5" ry="20" fill="green"></ellipse>
+        </g>
+        <g id="car_group">
+            <polygon id="carpart" points="100,550 100,485 120,485 140,450 250,450 290,485 330,485 330,550"></polygon>
+            <circle cx="250" cy="550" r="20" fill="black"></circle>
+            <circle cx="150" cy="550" r="20" fill="black"></circle>
+            <circle cx="250" cy="550" r="8" fill="grey"></circle>
+            <circle cx="150" cy="550" r="8" fill="grey"></circle>
+            <!-- <rect x="" y="" width="" height="" fill="blue"></rect> -->
+            <!-- <rect x="" y="" width="" height="" fill="blue"></rect> -->
+        </g>
+    </svg>
+</body>
+</html>
